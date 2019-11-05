@@ -1,21 +1,38 @@
-/*@media screen and (max-width: 640px){
+@media screen and (max-width: 640px){
 	container{
 		width: 100%;
 	}
-}*/
+}
 
-.panel{
+.panel {
 	width: 100%;
 }
 
-.jumbotron{
-	background-color: #5cb85c;
-	/* Find light color of success panel */
+.jumbotron {
+	background-color: #9e007c;
+	border-color: black;
 	color: #eeeecc;
 	padding-top: 1%;
 	padding-bottom: 2%;
 }
 
-.panel-heading{
+.panel-success {
+	border-color: black;
+}
+
+.panel-success>.panel-heading {
 	padding-top: 0.25%;
+	background-color: #9e007c;
+	border-color: black;
+	color: #eeeecc;
+}
+
+.panel-body {
+	border-color: black;
+}
+
+.btn-success {
+	background-color: #9e007c;
+	border-color: black;
+	color: #eeeecc;
 }
